@@ -1,0 +1,56 @@
+body{
+	background: black ;
+}
+
+.title{
+	color: lightcoral;
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 5rem;
+}
+
+h1{
+	font-size: 120px;
+	text-align: center;
+	margin: auto;
+}
+
+table {
+  border: 2px solid white;
+  margin: auto;
+}
+
+/*td {
+  border: 2px solid black;
+  margin: auto;
+}*/
+
+#chat-output{
+	width: 1300px;
+	height: 590px;
+	background: white;
+	font-family: "Courier New";
+}
+
+.text-input{
+	width: 1200px;
+	height: 100px;
+	font-family: "Courier New";
+	font-size :30px;
+}
+
+
+
+#send-button{
+	height: 100px;
+	width: 100px;
+	font-family: "Courier New";
+	font-size: 30px
+}
+
+#text-box{
+	width: 1200px;
+	height: 100px;
+
+}
+

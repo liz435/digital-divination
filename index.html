@@ -1,0 +1,55 @@
+<DOCTYPE! HTML>
+	<html>
+
+	<header>
+		<title>Main Page</title>
+		<link rel  = "stylesheet" type = "text/css" href = "style.css">
+
+	</header>
+
+	<body>
+        
+		<div class = "title">
+
+			<table>
+				<tr>
+					<td colspan="2">
+
+            <h1 id = "upper" onload="chatBot()">
+                </h1>
+
+						<h1 id = "chat-output" onload="display()">
+						Hi! What is your name?
+					    </h1>
+            
+
+              <div id = "lower">
+              <h1 id = "reply">
+
+              </h1>
+               </div>
+
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<div class = "text-input">
+							<input type = "text" id = "text-box" name = "txt" style="font-size:25px; font-family: Courier New; " onkeypress="return enterKey(event)" onfocus="this.value = ''" onblur="this.value = ''">
+					    </div>
+					</td>
+
+					<td>
+						<div class = "button">
+							<!-- <input type = "button"  value = "send" id = "send-button" name = "send" onclick="sendText()"> -->
+
+              <button type = "button" id = "send-button" onclick ="typeInput();" >send</button>
+              <script src = "chat.js" type="text/javascript"></script>
+					    </div>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+	</body>
+	</html>
